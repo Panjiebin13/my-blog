@@ -1,7 +1,7 @@
 ---
 home: true
-heroImage: /logo.png
-heroText: Panjiebin 的博客
+heroImage: ./1989.jpg
+heroText: Panjiebin13的博客
 tagline: 记录生活，分享技术，追求卓越
 actions:
   - text: 📚 开始阅读
@@ -32,23 +32,21 @@ features:
   - title: 📈 成长记录
     details: 记录个人成长历程和技能提升路径
     icon: 📈
-footer: Copyright © 2023-present Panjiebin | Powered by [VuePress](https://vuepress.vuejs.org/) & [GitHub Pages](https://pages.github.com/)
+footer: Copyright © jizu-present Panjiebin | Powered by [VuePress](https://vuepress.vuejs.org/) & [GitHub Pages](https://pages.github.com/)
 ---
 
 ## 🌟 欢迎来到我的博客
 
-这里是我在互联网上的小天地，我会在这里分享技术学习心得、项目实践经验以及生活中的点滴感悟。
+我是南京大学软件学院2023级的一名本科生，我会在这里分享技术学习心得、项目实践经验以及生活中的点滴感悟。
 
 ### 📧 联系方式
 
 - **GitHub**: [https://github.com/Panjiebin13](https://github.com/Panjiebin13)
-- **博客地址**: [https://Panjiebin13.github.io/my-blog/](https://Panjiebin13.github.io/my-blog/)
+- **CSDN社区**: [https://blog.csdn.net/Panjiebin13](https://blog.csdn.net/panjiebing?type=blog)
 
 ### 🔗 友情链接
 
-- [VuePress 官方文档](https://vuepress.vuejs.org/)
-- [GitHub Pages 官方文档](https://pages.github.com/)
-- [Markdown 语法指南](https://www.markdownguide.org/)
+暂无
 
 ---
 

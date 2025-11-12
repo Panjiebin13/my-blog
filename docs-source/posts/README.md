@@ -1,9 +1,10 @@
 # 文章列表
 
-这里是博客文章的列表。
+[[toc]]
 
-## 最新文章
+这里是博客文章的列表，按类别组织。
 
-- [2023-08-01 我的博客搭建之旅](./2023/my-blog-journey.md)
-- [2023-07-15 VuePress入门指南](./2023/vuepress-guide.md)
-- [2023-06-30 GitHub Pages部署教程](./2023/github-pages-deployment.md)
+## 文章分类
+
+- [计算机组成与原理](jizu/index.md)
+- [博客搭建遇到的问题与解决方案](problems/index.md)
