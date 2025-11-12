@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.26" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>GitHub Pages部署教程 | 我的博客</title><meta name="description" content="使用VuePress搭建的个人博客">
+    <link rel="preload" href="/my-blog/assets/style-C5QREZ3P.css" as="style"><link rel="stylesheet" href="/my-blog/assets/style-C5QREZ3P.css">
+    <link rel="modulepreload" href="/my-blog/assets/app-Dun9tgOF.js"><link rel="modulepreload" href="/my-blog/assets/github-pages-deployment.html-DFe1hbhJ.js">
+    <link rel="prefetch" href="/my-blog/assets/index.html-Ba6x92ss.js" as="script"><link rel="prefetch" href="/my-blog/assets/index.html-CRPEzu8Q.js" as="script"><link rel="prefetch" href="/my-blog/assets/index.html-du--cHxj.js" as="script"><link rel="prefetch" href="/my-blog/assets/my-blog-journey.html-8InLEFYi.js" as="script"><link rel="prefetch" href="/my-blog/assets/vuepress-guide.html-DMFm9tcx.js" as="script"><link rel="prefetch" href="/my-blog/assets/404.html-ILZ_yods.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container no-sidebar external-link-icon" vp-container><!--[--><header class="vp-navbar" vp-navbar><div class="vp-toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a class="route-link" href="/my-blog/"><!----><span class="vp-site-name" aria-hidden="true">我的博客</span></a></span><div class="vp-navbar-items-wrapper" style=""><!--[--><!--]--><nav class="vp-navbar-items vp-hide-mobile" aria-label="site navigation"><!--[--><div class="vp-navbar-item"><a class="route-link auto-link" href="/my-blog/" aria-label="首页"><!--[--><!--[--><!--]--><!--]-->首页<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link route-link-active auto-link" href="/my-blog/posts/" aria-label="文章"><!--[--><!--[--><!--]--><!--]-->文章<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/my-blog/about/" aria-label="关于"><!--[--><!--[--><!--]--><!--]-->关于<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="auto-link external-link" href="https://github.com/Panjiebin13/my-blog" aria-label="GitHub" rel="noopener noreferrer" target="_blank"><!--[--><!--[--><!--]--><!--]-->GitHub<!--[--><!--[--><!--]--><!--]--></a></div><!--]--></nav><!--[--><!--]--><button type="button" class="vp-toggle-color-mode-button" title="toggle color mode"><svg class="light-icon" viewbox="0 0 32 32" style=""><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg class="dark-icon" viewbox="0 0 32 32" style="display:none;"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!----></div></header><!--]--><div class="vp-sidebar-mask"></div><!--[--><aside class="vp-sidebar" vp-sidebar><nav class="vp-navbar-items" aria-label="site navigation"><!--[--><div class="vp-navbar-item"><a class="route-link auto-link" href="/my-blog/" aria-label="首页"><!--[--><!--[--><!--]--><!--]-->首页<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link route-link-active auto-link" href="/my-blog/posts/" aria-label="文章"><!--[--><!--[--><!--]--><!--]-->文章<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/my-blog/about/" aria-label="关于"><!--[--><!--[--><!--]--><!--]-->关于<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="auto-link external-link" href="https://github.com/Panjiebin13/my-blog" aria-label="GitHub" rel="noopener noreferrer" target="_blank"><!--[--><!--[--><!--]--><!--]-->GitHub<!--[--><!--[--><!--]--><!--]--></a></div><!--]--></nav><!--[--><!--]--><!----><!--[--><!--]--></aside><!--]--><!--[--><main class="vp-page"><!--[--><!--]--><div vp-content><!--[--><!--]--><div id="content"><h1 id="github-pages部署教程" tabindex="-1"><a class="header-anchor" href="#github-pages部署教程"><span>GitHub Pages部署教程</span></a></h1><blockquote><p>发布时间：2023-06-30</p></blockquote><h2 id="什么是github-pages" tabindex="-1"><a class="header-anchor" href="#什么是github-pages"><span>什么是GitHub Pages</span></a></h2><p>GitHub Pages是GitHub提供的静态网页托管服务，可以直接从GitHub仓库中的文件托管个人、组织或项目的网站。</p><h2 id="部署方式" tabindex="-1"><a class="header-anchor" href="#部署方式"><span>部署方式</span></a></h2><h3 id="方式一-使用github-actions自动部署" tabindex="-1"><a class="header-anchor" href="#方式一-使用github-actions自动部署"><span>方式一：使用GitHub Actions自动部署</span></a></h3><ol><li>在项目根目录创建<code>.github/workflows/deploy.yml</code>文件：</li></ol><div class="language-yaml line-numbers-mode" data-highlighter="prismjs" data-ext="yml"><pre><code class="language-yaml"><span class="line"><span class="token key atrule">name</span><span class="token punctuation">:</span> Build and Deploy</span>
+<span class="line"><span class="token key atrule">on</span><span class="token punctuation">:</span></span>
+<span class="line">  <span class="token key atrule">push</span><span class="token punctuation">:</span></span>
+<span class="line">    <span class="token key atrule">branches</span><span class="token punctuation">:</span></span>
+<span class="line">      <span class="token punctuation">-</span> main</span>
+<span class="line"><span class="token key atrule">jobs</span><span class="token punctuation">:</span></span>
+<span class="line">  <span class="token key atrule">build-and-deploy</span><span class="token punctuation">:</span></span>
+<span class="line">    <span class="token key atrule">runs-on</span><span class="token punctuation">:</span> ubuntu<span class="token punctuation">-</span>latest</span>
+<span class="line">    <span class="token key atrule">steps</span><span class="token punctuation">:</span></span>
+<span class="line">      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Checkout</span>
+<span class="line">        <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/checkout@v2</span>
+<span class="line"></span>
+<span class="line">      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Setup Node.js</span>
+<span class="line">        <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/setup<span class="token punctuation">-</span>node@v1</span>
+<span class="line">        <span class="token key atrule">with</span><span class="token punctuation">:</span></span>
+<span class="line">          <span class="token key atrule">node-version</span><span class="token punctuation">:</span> <span class="token string">&#39;16&#39;</span></span>
+<span class="line"></span>
+<span class="line">      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Install dependencies</span>
+<span class="line">        <span class="token key atrule">run</span><span class="token punctuation">:</span> npm install</span>
+<span class="line"></span>
+<span class="line">      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Build</span>
+<span class="line">        <span class="token key atrule">run</span><span class="token punctuation">:</span> npm run build</span>
+<span class="line"></span>
+<span class="line">      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Deploy</span>
+<span class="line">        <span class="token key atrule">uses</span><span class="token punctuation">:</span> peaceiris/actions<span class="token punctuation">-</span>gh<span class="token punctuation">-</span>pages@v3</span>
+<span class="line">        <span class="token key atrule">with</span><span class="token punctuation">:</span></span>
+<span class="line">          <span class="token key atrule">github_token</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> secrets.GITHUB_TOKEN <span class="token punctuation">}</span><span class="token punctuation">}</span></span>
+<span class="line">          <span class="token key atrule">publish_dir</span><span class="token punctuation">:</span> ./docs/.vuepress/dist</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ol start="2"><li>在GitHub仓库设置中启用GitHub Pages： <ul><li>进入仓库的Settings页面</li><li>找到Pages选项</li><li>Source选择&quot;gh-pages branch&quot;</li><li>保存设置</li></ul></li></ol><h3 id="方式二-使用手动部署脚本" tabindex="-1"><a class="header-anchor" href="#方式二-使用手动部署脚本"><span>方式二：使用手动部署脚本</span></a></h3><ol><li>创建部署脚本<code>deploy.sh</code>：</li></ol><div class="language-bash line-numbers-mode" data-highlighter="prismjs" data-ext="sh"><pre><code class="language-bash"><span class="line"><span class="token shebang important">#!/usr/bin/env sh</span></span>
+<span class="line"></span>
+<span class="line"><span class="token comment"># 确保脚本抛出遇到的错误</span></span>
+<span class="line"><span class="token builtin class-name">set</span> <span class="token parameter variable">-e</span></span>
+<span class="line"></span>
+<span class="line"><span class="token comment"># 生成静态文件</span></span>
+<span class="line"><span class="token function">npm</span> run build</span>
+<span class="line"></span>
+<span class="line"><span class="token comment"># 进入生成的文件夹</span></span>
+<span class="line"><span class="token builtin class-name">cd</span> docs/.vuepress/dist</span>
+<span class="line"></span>
+<span class="line"><span class="token comment"># 如果是发布到自定义域名</span></span>
+<span class="line"><span class="token comment"># echo &#39;www.example.com&#39; &gt; CNAME</span></span>
+<span class="line"></span>
+<span class="line"><span class="token function">git</span> init</span>
+<span class="line"><span class="token function">git</span> <span class="token function">add</span> <span class="token parameter variable">-A</span></span>
+<span class="line"><span class="token function">git</span> commit <span class="token parameter variable">-m</span> <span class="token string">&#39;deploy&#39;</span></span>
+<span class="line"></span>
+<span class="line"><span class="token comment"># 如果发布到 https://&lt;USERNAME&gt;.github.io/&lt;REPO&gt;</span></span>
+<span class="line"><span class="token comment"># git push -f git@github.com:&lt;USERNAME&gt;/&lt;REPO&gt;.git master:gh-pages</span></span>
+<span class="line"></span>
+<span class="line"><span class="token comment"># 如果发布到 https://&lt;USERNAME&gt;.github.io</span></span>
+<span class="line"><span class="token comment"># git push -f git@github.com:&lt;USERNAME&gt;/&lt;USERNAME&gt;.github.io.git master</span></span>
+<span class="line"></span>
+<span class="line"><span class="token builtin class-name">cd</span> -</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ol start="2"><li>给脚本添加执行权限：</li></ol><div class="language-bash line-numbers-mode" data-highlighter="prismjs" data-ext="sh"><pre><code class="language-bash"><span class="line"><span class="token function">chmod</span> +x deploy.sh</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div></div></div><ol start="3"><li>运行部署脚本：</li></ol><div class="language-bash line-numbers-mode" data-highlighter="prismjs" data-ext="sh"><pre><code class="language-bash"><span class="line"><span class="token function">npm</span> run deploy</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div></div></div><h2 id="配置vuepress" tabindex="-1"><a class="header-anchor" href="#配置vuepress"><span>配置VuePress</span></a></h2><p>在<code>docs/.vuepress/config.js</code>中配置<code>base</code>路径：</p><div class="language-javascript line-numbers-mode" data-highlighter="prismjs" data-ext="js"><pre><code class="language-javascript"><span class="line">module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span></span>
+<span class="line">  <span class="token comment">// 如果部署到 https://&lt;USERNAME&gt;.github.io/&lt;REPO&gt;/</span></span>
+<span class="line">  <span class="token literal-property property">base</span><span class="token operator">:</span> <span class="token string">&#39;/&lt;REPO&gt;/&#39;</span><span class="token punctuation">,</span></span>
+<span class="line">  </span>
+<span class="line">  <span class="token comment">// 其他配置...</span></span>
+<span class="line"><span class="token punctuation">}</span></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="自定义域名" tabindex="-1"><a class="header-anchor" href="#自定义域名"><span>自定义域名</span></a></h2><p>如果你想使用自定义域名，可以在GitHub仓库的根目录或<code>docs</code>目录下创建<code>CNAME</code>文件，内容为你的域名：</p><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text"><pre><code class="language-text"><span class="line">yourdomain.com</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div></div></div><h2 id="常见问题" tabindex="-1"><a class="header-anchor" href="#常见问题"><span>常见问题</span></a></h2><h3 id="_1-页面样式丢失" tabindex="-1"><a class="header-anchor" href="#_1-页面样式丢失"><span>1. 页面样式丢失</span></a></h3><p>通常是因为<code>base</code>路径配置不正确，确保<code>config.js</code>中的<code>base</code>与你的GitHub Pages路径匹配。</p><h3 id="_2-404错误" tabindex="-1"><a class="header-anchor" href="#_2-404错误"><span>2. 404错误</span></a></h3><p>检查你的文件路径和链接是否正确，确保所有文件都已正确部署。</p><h3 id="_3-构建失败" tabindex="-1"><a class="header-anchor" href="#_3-构建失败"><span>3. 构建失败</span></a></h3><p>检查你的Node.js版本和依赖是否正确安装，查看构建日志获取更多信息。</p><h2 id="总结" tabindex="-1"><a class="header-anchor" href="#总结"><span>总结</span></a></h2><p>GitHub Pages是部署静态博客的绝佳选择，特别是对于使用VuePress构建的博客。通过GitHub Actions可以实现自动化部署，大大简化了发布流程。</p></div><!--[--><!--]--></div><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><!----><!----></div></footer><!----><!--[--><!--]--></main><!--]--></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/my-blog/assets/app-Dun9tgOF.js" defer></script>
+  </body>
+</html>
