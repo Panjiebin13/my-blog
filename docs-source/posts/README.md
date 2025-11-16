@@ -6,5 +6,6 @@
 
 ## 文章分类
 
-- [计算机组成与原理](jizu/index.md)
+- [计算机组成与原理](computor-construct/index.md)
+- [cpp高级程序设计](cpp/index.md)
 - [博客搭建遇到的问题与解决方案](problems/index.md)

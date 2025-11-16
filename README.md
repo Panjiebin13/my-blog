@@ -32,7 +32,7 @@ features:
   - title: 📈 成长记录
     details: 记录个人成长历程和技能提升路径
     icon: 📈
-footer: Copyright © jizu-present Panjiebin | Powered by [VuePress](https://vuepress.vuejs.org/) & [GitHub Pages](https://pages.github.com/)
+footer: Copyright © computor-construct-present Panjiebin | Powered by [VuePress](https://vuepress.vuejs.org/) & [GitHub Pages](https://pages.github.com/)
 ---
 
 ## 🌟 欢迎来到我的博客
